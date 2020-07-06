@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/github-script@v2
         with:
-          github-token: ${{secrets.GITHUB_TOKEN}}
+          github-token: ${{secrets.JZ_TOKEN}}
           script: |
             await github.issues.createComment({
               issue_number: context.issue.number,
