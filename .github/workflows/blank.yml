@@ -7,8 +7,8 @@ name: CI
 on:
   pull_request:
     branches: [ master ]
-  issue_comment:
-    branches: [ master ]
+#   issue_comment:
+#     branches: [ master ]
 
 jobs:
   comment:
